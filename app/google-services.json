@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722201881031",
+    "project_id": "ifishcam",
+    "storage_bucket": "ifishcam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722201881031:android:2a34342efaabb75abe91e2",
+        "android_client_info": {
+          "package_name": "org.apps.ifishcam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722201881031-kaac7kmni1tbv59adnjn7dt9r5s8eqr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGhoMTJX9C5A678JyOYJJqQvCcnN0gZpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722201881031-kaac7kmni1tbv59adnjn7dt9r5s8eqr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
