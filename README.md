@@ -10,6 +10,8 @@ Ini adalah repositori untuk aplikasi iFiCam. Aplikasi ini berfungsi untuk mendet
 - Posting Ikan
 - Posisi penjual pada Maps
 
+Pastikan Anda memiliki API Key untuk Google Maps dan Firebase yang diperlukan. Ikuti dokumentasi resmi untuk mendapatkan API Key dan mengonfigurasi Firebase.
+
 ## Kerja Sama Learning Path
 
 1. Machine Learning
