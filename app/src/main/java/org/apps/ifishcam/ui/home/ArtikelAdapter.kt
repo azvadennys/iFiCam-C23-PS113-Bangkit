@@ -7,21 +7,20 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import org.apps.ifishcam.databinding.ItemArtikelBinding
-import org.apps.ifishcam.model.artikel.Artikel
-import org.apps.ifishcam.response.ArticlesItem
+import org.apps.ifishcam.model.artikel.ArticlesItem
 
-class ArtikelAdapter(private val listArtikel: List<Artikel>): RecyclerView.Adapter<ArtikelAdapter.ViewHolder>() {
+class ArtikelAdapter(private val listArtikel: List<ArticlesItem>): RecyclerView.Adapter<ArtikelAdapter.ViewHolder>() {
     class ViewHolder (val binding: ItemArtikelBinding): RecyclerView.ViewHolder(binding.root){
-        fun bind(artikel: Artikel){
+        fun bind(artikel: ArticlesItem){
             binding.apply {
                 tvItemTitle.text = artikel.title
-                tvItemPublishedDate.text = artikel.publishedAt
+                tvItemPublishedDate.text = artikel.date
                 Glide.with(itemView.context)
-                    .load(artikel.urlToImage)
+                    .load(artikel.photoUrl)
                     .into(imgPoster)
                 itemView.setOnClickListener {
                     val intent = Intent(Intent.ACTION_VIEW)
-                    intent.data = Uri.parse(artikel.url)
+                    intent.data = Uri.parse(artikel.linkUrl)
                     itemView.context.startActivity(intent)
                 }
             }

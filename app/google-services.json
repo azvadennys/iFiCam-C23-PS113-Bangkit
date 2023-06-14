@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "722201881031",
-    "project_id": "ifishcam",
-    "storage_bucket": "ifishcam.appspot.com"
+    "project_number": "1079940082015",
+    "project_id": "capstone-ificam",
+    "storage_bucket": "capstone-ificam.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:722201881031:android:2a34342efaabb75abe91e2",
+        "mobilesdk_app_id": "1:1079940082015:android:046f9e96d1269dff07eeea",
         "android_client_info": {
           "package_name": "org.apps.ifishcam"
         }
       },
       "oauth_client": [
         {
-          "client_id": "722201881031-kaac7kmni1tbv59adnjn7dt9r5s8eqr6.apps.googleusercontent.com",
+          "client_id": "1079940082015-7s7nvubtb2l6a6lmauk81e33ivncts90.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.apps.ifishcam",
+            "certificate_hash": "bb12be33b4ff9a98129c24f3ee0ad5ef89bcaeed"
+          }
+        },
+        {
+          "client_id": "1079940082015-f1tb5mvhi6m945i81a9j359cvsk10l7u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCGhoMTJX9C5A678JyOYJJqQvCcnN0gZpI"
+          "current_key": "AIzaSyA_tfqYduJ1slR3_8oScA3lDO_7Tn6dPR4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "722201881031-kaac7kmni1tbv59adnjn7dt9r5s8eqr6.apps.googleusercontent.com",
+              "client_id": "1079940082015-31jea9pibo59tr76nd5goqsuf46mb63v.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

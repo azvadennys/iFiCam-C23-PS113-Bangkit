@@ -18,15 +18,15 @@
         tools:layout="@layout/fragment_history" />
 
     <fragment
-        android:id="@+id/navigation_info"
-        android:name="org.apps.ifishcam.ui.info.AboutFragment"
-        android:label="About"
-        tools:layout="@layout/fragment_about" />
-
-    <fragment
         android:id="@+id/navigation_person"
         android:name="org.apps.ifishcam.ui.person.PersonFragment"
         android:label="Person"
         tools:layout="@layout/fragment_person" />
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="org.apps.ifishcam.ui.explore.ExploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" />
 
 </navigation>

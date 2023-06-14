@@ -31,7 +31,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="top|center"
             android:layout_margin="10dp"
-            android:text="Selamat Datang di iFishCam"
+            android:text="Selamat Datang di iFiCam"
+            android:fontFamily="@font/poppinsmedium"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -43,7 +44,8 @@
             android:layout_margin="10dp"
             android:text="Temukan Identitas Ikan di Sekitarmu!"
             android:textColor="@color/white"
-            android:textSize="35sp"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="30sp"
             android:textStyle="bold" />
     </FrameLayout>
 
@@ -65,6 +67,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:text="login with"
+            android:fontFamily="@font/poppinsmedium"
             android:textColor="@color/hitam"
             android:textSize="11sp" />
 
@@ -89,6 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="SIGN IN"
+                android:fontFamily="@font/poppinsmedium"
                 android:textColor="@color/hitam"
                 android:textStyle="bold" />
 
@@ -96,11 +100,14 @@
 
     </LinearLayout>
 
-    <ProgressBar
+    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/progressBar_login"
         style="?android:attr/progressBarStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:lottie_rawRes="@raw/progress"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"

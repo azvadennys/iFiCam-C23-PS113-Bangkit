@@ -16,6 +16,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:fontFamily="@font/poppinsmedium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,6 +39,7 @@
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:fontFamily="@font/poppinsmedium"
         app:layout_constraintEnd_toEndOf="@+id/profile"
         app:layout_constraintStart_toStartOf="@+id/profile"
         app:layout_constraintTop_toBottomOf="@+id/profile"
@@ -61,9 +63,80 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:text="Pengaturan"
+            android:fontFamily="@font/poppinsmedium"
             android:textColor="@color/hitam"
             android:textSize="16sp"
             android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mypost_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_mypost" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="My Post"
+                    android:textColor="@color/hitam"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/about_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_baseline_info_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Tentang"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/hitam"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/logout_button"
@@ -90,7 +163,8 @@
                     android:layout_marginStart="20dp"
                     android:text="Keluar"
                     android:textColor="#FF0000"
-                    android:textSize="16sp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textSize="14sp"
                     android:textStyle="bold" />
 
             </LinearLayout>

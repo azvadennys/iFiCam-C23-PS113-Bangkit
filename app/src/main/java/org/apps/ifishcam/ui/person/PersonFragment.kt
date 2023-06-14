@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -14,12 +15,10 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import org.apps.ifishcam.R
-
 import org.apps.ifishcam.databinding.FragmentPersonBinding
 import org.apps.ifishcam.model.User
 import org.apps.ifishcam.model.UserPreference
 import org.apps.ifishcam.ui.LoginActivity
-
 
 class PersonFragment : Fragment() {
 
@@ -63,7 +62,19 @@ class PersonFragment : Fragment() {
         binding.logoutButton.setOnClickListener {
             googleSignInClient.signOut()
             userPref.setLogout()
+            auth.signOut()
             signOut()
+            Toast.makeText(requireContext(),"Anda Keluar", Toast.LENGTH_SHORT).show()
+        }
+
+        binding.aboutButton.setOnClickListener {
+            val intent = Intent(requireActivity(), AboutActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.mypostButton.setOnClickListener {
+            val intent = Intent(requireActivity(), MyPostActivity::class.java)
+            startActivity(intent)
         }
 
 
@@ -76,7 +87,6 @@ class PersonFragment : Fragment() {
     }
 
     private fun signOut() {
-        auth.signOut()
         startActivity(Intent(requireActivity(), LoginActivity::class.java))
         requireActivity().finish()
     }

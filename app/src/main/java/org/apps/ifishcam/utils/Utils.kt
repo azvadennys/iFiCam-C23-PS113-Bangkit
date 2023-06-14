@@ -5,30 +5,28 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.net.Uri
+import android.os.Build
 import android.os.Environment
+import androidx.annotation.RequiresApi
 import java.io.*
-import java.text.DateFormat
-import java.text.ParseException
 import java.text.SimpleDateFormat
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 import java.util.*
 
-fun formatDate(currentDate: String): String? {
-    val currentFormat = "yyyy-MM-dd'T'hh:mm:ss'Z'"
-    val targetFormat = "dd MMM yyyy | HH:mm"
-    val timezone = "GMT"
-    val currentDf: DateFormat = SimpleDateFormat(currentFormat, Locale.getDefault())
-    currentDf.timeZone = TimeZone.getTimeZone(timezone)
-    val targetDf: DateFormat = SimpleDateFormat(targetFormat, Locale.getDefault())
-    var targetDate: String? = null
-    try {
-        val date = currentDf.parse(currentDate)
-        if (date != null) {
-            targetDate = targetDf.format(date)
-        }
-    } catch (ex: ParseException) {
-        ex.printStackTrace()
-    }
-    return targetDate
+@RequiresApi(Build.VERSION_CODES.O)
+fun formatDate(dateString: String): String {
+    val inputFormat = DateTimeFormatter.ofPattern("d/M/yyyy, h:mm:ss a")
+    val outputFormat = DateTimeFormatter.ofPattern("dd MMMM yyyy, HH:mm:ss")
+
+    val dateTime = LocalDateTime.parse(dateString, inputFormat)
+
+    return dateTime.format(outputFormat)
+}
+
+fun removeSymbols(input: String): String {
+    val regex = Regex("[^A-Za-z0-9 ]")
+    return regex.replace(input, "")
 }
 
 val timeStamp: String = SimpleDateFormat(

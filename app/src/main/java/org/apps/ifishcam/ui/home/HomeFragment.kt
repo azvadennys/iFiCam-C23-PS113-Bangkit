@@ -15,13 +15,13 @@ import com.google.firebase.auth.FirebaseUser
 import org.apps.ifishcam.databinding.FragmentHomeBinding
 import org.apps.ifishcam.model.User
 import org.apps.ifishcam.model.UserPreference
-import org.apps.ifishcam.model.artikel.ArtikelData
+import org.apps.ifishcam.model.UserReq
+import org.apps.ifishcam.model.artikel.ArticlesItem
 import org.apps.ifishcam.model.tenfish.TenFishData
 
 class HomeFragment : Fragment() {
-
     private var _binding: FragmentHomeBinding? = null
-    private lateinit var newsAdapter: ArtikelAdapter
+    private lateinit var articleAdapter: ArtikelAdapter
     private lateinit var tenFishAdapter: TenFishAdapter
     private val homeViewModel by viewModels<HomeViewModel>()
     private lateinit var userPref: UserPreference
@@ -46,21 +46,41 @@ class HomeFragment : Fragment() {
         userPref = UserPreference(requireContext())
         user = userPref.getUser()
 
-        showListArtikel()
+//        POST Regist User
+        val uid = currentUser?.uid
+        val name = currentUser?.displayName
+        val email = currentUser?.email
+        if (uid != null && name != null && email != null) {
+            Log.d("UIDNI", uid)
+            Log.d("NAMEA", name)
+            Log.d("EMAIL", email)
+            val user = UserReq(name, email)
+            homeViewModel.postId(uid, user)
+        }
+
         showListTenFish()
 
+        homeViewModel.listNews.observe(viewLifecycleOwner){
+            if (it != null) {
+                showListArticle(it)
+            }
+        }
+
+        homeViewModel.isLoading.observe(viewLifecycleOwner){
+            showLoading(it)
+        }
         return binding.root
+    }
+
+    private fun showListArticle(listArtikel: List<ArticlesItem>){
+        binding.rvArtikel.layoutManager = LinearLayoutManager(requireContext())
+        articleAdapter = ArtikelAdapter(listArtikel)
+        binding.rvArtikel.adapter = articleAdapter
     }
 
     private fun updateUI(user: FirebaseUser?) = with(binding){
         Glide.with(this@HomeFragment).load(user?.photoUrl).into(profile)
         namaProfile.text = user?.displayName
-    }
-
-    private fun showListArtikel() {
-        binding.rvArtikel.layoutManager = LinearLayoutManager(requireContext())
-        newsAdapter = ArtikelAdapter(ArtikelData.artikel)
-        binding.rvArtikel.adapter = newsAdapter
     }
 
     private fun showListTenFish(){
@@ -74,9 +94,13 @@ class HomeFragment : Fragment() {
         binding.progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
     }
 
+    override fun onResume() {
+        super.onResume()
+        homeViewModel.getArticle()
+    }
+
     override fun onDestroyView() {
         super.onDestroyView()
-        homeViewModel.getNews()
         _binding = null
     }
 }

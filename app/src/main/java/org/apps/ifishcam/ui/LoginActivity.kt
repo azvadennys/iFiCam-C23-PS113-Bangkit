@@ -4,11 +4,10 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
 import android.view.View
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.content.ContentProviderCompat.requireContext
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -16,7 +15,6 @@ import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
-import org.apps.ifishcam.MainActivity
 import org.apps.ifishcam.R
 import org.apps.ifishcam.databinding.ActivityLoginBinding
 import org.apps.ifishcam.model.User
@@ -51,11 +49,9 @@ class LoginActivity : AppCompatActivity() {
         user = userPref.getUser()
         val currentUser = auth.currentUser
         if (currentUser != null) {
-            val user = User(
-                currentUser.uid,
-                currentUser.displayName,
-                currentUser.photoUrl.toString()
-            )
+            val userId = currentUser.uid
+            userPref.setUserId(userId)
+            val user = User(userId, currentUser.displayName, currentUser.email)
             userPref.setLogin(user)
         }
 
@@ -94,8 +90,10 @@ class LoginActivity : AppCompatActivity() {
                     // Sign in success, update UI with the signed-in user's information
                     Log.d(TAG, "signInWithCredential:success")
                     val user = auth.currentUser
+                    userPref.setUserId(user?.uid)
                     updateUI(user)
                     showLoading(false)
+                    Toast.makeText(this,"Anda Masuk", Toast.LENGTH_SHORT).show()
                 } else {
                     // If sign in fails, display a message to the user.
                     Log.w(TAG, "signInWithCredential:failure", task.exception)

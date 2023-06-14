@@ -9,33 +9,41 @@ class UserPreference(context: Context) {
     companion object {
         private const val PREFS_NAME = "login_pref"
         private const val NAME = "name"
+        private const val EMAIL = "email"
         private const val USER_ID = "userId"
-        private const val PHOTO_URL = "photoUrl"
     }
 
     private val preferences = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
     private lateinit var auth: FirebaseAuth
 
+    fun setUserId(userId: String?) {
+        val editor = preferences.edit()
+        editor.putString("userId", userId)
+        editor.apply()
+    }
+
     fun setLogin(user: User) {
         val editor = preferences.edit()
         editor.putString(NAME, user.name)
+        editor.putString(EMAIL, user.email)
         editor.putString(USER_ID, user.userId)
-        editor.putString(PHOTO_URL, user.photoUrl.toString())
         editor.apply()
     }
 
     fun getUser(): User {
         auth = FirebaseAuth.getInstance()
         val name = preferences.getString(NAME, null)
+        val email = preferences.getString(EMAIL, null)
         val userId = preferences.getString(USER_ID, null)
-        val photoUrl = preferences.getString(PHOTO_URL, null)
         return User(
-            userId, name, photoUrl
+            userId, name, email
         )
     }
 
     fun setLogout() {
-        val editor = preferences.edit().clear()
+        val editor = preferences.edit()
+        editor.remove(getUser().userId)
+        editor.clear()
         editor.apply()
     }
 

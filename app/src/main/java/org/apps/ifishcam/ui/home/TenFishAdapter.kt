@@ -1,14 +1,9 @@
 package org.apps.ifishcam.ui.home
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import org.apps.ifishcam.R
-import org.apps.ifishcam.databinding.ItemArtikelBinding
 import org.apps.ifishcam.databinding.ItemTenfishBinding
 import org.apps.ifishcam.model.tenfish.TenFish
 
