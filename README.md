@@ -10,14 +10,6 @@ Ini adalah repositori untuk aplikasi iFiCam. Aplikasi ini berfungsi untuk mendet
 - Posting Ikan
 - Posisi penjual pada Maps
 
-## Instalasi
-
-Berikut adalah langkah-langkah untuk menginstal dan menjalankan aplikasi ini:
-
-1. Langkah 1: [Instruksi langkah 1]
-2. Langkah 2: [Instruksi langkah 2]
-3. Langkah 3: [Instruksi langkah 3]
-
 ## Kerja Sama Learning Path
 
 1. Machine Learning
