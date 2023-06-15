@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "capstone-ificam",
+  "private_key_id": "c063b710519c039ce716d62973543f47ab01fb64",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCP34zx/EhTiwsr\nIcbdSdaafvlbjTfJjiekcr69Xu6lSRvqd/8Jor4moJgFBCGca24hWQd+4Wf+RBeO\nTKXVPVAytoau/bgdL/MIDhLdx3II+658T0g4yZU1Lea1no6uBsEWdDH1SrhwtIPt\nuLwWvTirpSLpKHSBiPHjRmaMssmpoHTxdDL5x8CwRZTAaq60BWNIWAVHB4T21/uh\nCECI0YxswIUg+rUop1cgwjjMSvBdOaNYH+ueT3RBeoxvtvhUNeW33H0qsy/a3K3s\ntS8a+X9EGiSjjli1ihMf1sNhauHFLBQvsD9tv+bUwgzQlqlb5q1I5/Xy1EBjYAQ6\ndmjOBXWnAgMBAAECggEABmKQ8kJUgWSn07u1hCedPxEIhwAe7DKDXuB6x5O5epti\ngkbeCjLvRm6VII/c4ADCi/dUBlUBlP63nuiW6X5Fm2KPWp/G9oCkxAQ/4RjTXkOx\nLDImjeKgXRJS7VeClIWXNyRj/TNaOSJBwqCStF2kcLWs9XUGqqMFvSToMzFSEtWL\nnWhrBtMfb4wZaL8MUWaa3FNbO8/f0vG8jykGst4Cacz9etyPfkO0IoNzddeFG4Zv\nBfUl4nQ+9snDhNoWDUPuVXmu+Mqb2c2LjgopkH97dAwhNMMLBWM0AxoS9JMOGoKi\nnUiXI5IirR1ZMOhe0FqTIozuZMXq9yNcCA7lLirngQKBgQDJLhG1ktl9Vubmab1g\nYBNRPFWNyk9yHABvRqDkT6RltrGLMGWHYVYkrjOrO2NIq7GOpGmT4j/P35GkBaLq\nuwzFZOTFUe6/IoPxiCMNov0ZZKlavZbgBrcs32jLdJ7EGDGCHMJBBxEcaovpeP5G\n36xzimJr6nnMc4pM4vlLg3gwJwKBgQC3E9/KABGUT4I+e0CN4Z39i3wDpA2z/M/C\nJCIaQ2mBvQU5xArIkswUMblgQUtiPlACXB6R3Ic4u8zNmk2JimAKaneGVsIB3o44\nI3ZlXEGVk24JrULgueTzsQp1jrSOM2ezqPAoMgYgbiuMi4U4qDPB2lRXlJUYhn4q\n31nMWm5+gQKBgBYndZnKNxsfY8QB5vHjAp2SiFVZ7w/A16dpXrRltNPin4CVbsjO\nxj651ETKAG/zQFVV865uXtqUYyRt3nf86zYdmzfDgwgXU/JYLIwG49pVBHVSpXe8\nJZXScGbfS9CKXYFXi2i/z3mSnh+yzEWfwgzjM11w78K9AoDfCdbv/l9HAoGAc1Ub\n2B9u86WbAU2X/0mww/dJKuoAj/Cl2UH2EeGB5+9yCVANEwoXcmlYxOCdYsiqkrIB\nuBXbQcxdWvDoA8uecTFdFs407gSMR6Vfgr85ucbkvUffJ780EqjnU+OQrzyHCdFV\naZ0J6wg8ew+x311nLaojFAFQY+DmPo/x/CDEFwECgYAsNIvJocD/0Woo2r5q9Wug\n1ZD/LyY+kUdXTgMfe6YTIkhznei+Anl0W0bgDVVuae0e+eZbbc/vq+hrtOnGCZMu\nBuPpoOhTE6FxEX5GUm4u6yfGTs4BHct5bTuvznGIGhgocNeN/DpeKbuusfDzhVE/\nUSccJT4gTluEcf+PUJxScQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "capstone-ificam-bucket-admin@capstone-ificam.iam.gserviceaccount.com",
+  "client_id": "109879820323707411919",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/capstone-ificam-bucket-admin%40capstone-ificam.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
