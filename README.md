@@ -1,4 +1,14 @@
-# Nama Aplikasi
+##Team Members – C23-PS113
+| Member    | Student ID    | Path    | University    |
+|------------|------------|------------|------------|
+| Azvadennys Vasiguhamiaz    | M146DSX2340      | Machine Learning     | Universitas Bengkulu     |
+| Salsabilla Adisty    | M146DKY4221     | Machine Learning     | Universitas Bengkulu     |
+| Rahmita Dwi Kurnia    | M146DKY4219     | Machine Learning     | Universitas Bengkulu     |
+| Muhammad Zaki Hamdani    | C304DSX2801    | Cloud Computing    | Universitas Pembangunan Nasional Veteran Jakarta    |
+| Hanif Amar Muzakki    | C349DSX1366    | Cloud Computing    | Universitas Sultan Ageng Tirtayasa    |
+| Ardhani Ahlan    | A360DKX4264    | Mobile Development    | Universitas Telkom    |
+
+## iFiCam Apps
 
 <p align="center">
   <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/raw/3765707b90de9438b9f76b46bc8fa8f6361fa1e3/Gambar1.png" alt="Deskripsi Gambar" style="width:100%;">
