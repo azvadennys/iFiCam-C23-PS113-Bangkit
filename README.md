@@ -1,5 +1,8 @@
+<h1 align="center">iFiCam - Machine Learning Documentation</h1>
+<p align="center">
+  <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/f7421b6ce19d65e16898259fedc8bb6c6d79227b/overview.png" alt="Deskripsi Gambar" style="width:100%;">
+</p>
 
-# Machine Learning Documentation
 ### Function Dependencies
 
 | Library    | Version    |
