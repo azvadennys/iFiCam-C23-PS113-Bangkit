@@ -32,6 +32,7 @@ Her is the [link](https://drive.google.com/file/d/1D9VnVlOrnf36frvaY7sOnzBJxV0Sg
   - Python
   - TensorFlow
   - Google Colab
+  - Roboflow
 
 - **Mobile Development:**
   - Figma
