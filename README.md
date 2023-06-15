@@ -1,4 +1,16 @@
+
 # Machine Learning Documentation
+### Function Dependencies
+
+| Library    | Version    |
+|------------|------------|
+| Tensorflow | <code>^2.5.0</code> | 
+| Keras | <code>^2.4.3</code> | 
+| Matplotlib | <code>^3.4.2</code> | 
+| NumPy | <code>^1.19.5</code> | 
+| Pandas | <code>^1.2.4</code> | 
+| Scikit-learn | <code>^0.24.2</code> | 
+| Seaborn | <code>^0.11.1</code> | 
 
 ## Transfer Learning InceptionV3
 <p align="left">
@@ -47,7 +59,21 @@ Once the model training is complete, evaluate its performance using the test set
 
 ### Model Accuracy & Lose
 <code>- loss: 0.0344 - accuracy: 0.9877 - val_loss: 0.0276 - val_accuracy: 0.9929</code>
-<p align="center">
-  <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/MachineLearning/Result/accuration%20and%20loss.png" alt="Deskripsi Gambar" style="width:50%;">
+<p align="left">
+  <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/MachineLearning/Result/accuration%20and%20loss.png" alt="Deskripsi Gambar" style="width:50%; border: 1px solid black;">
 </p>
-##
+
+### Classification Report at Test Dataset
+<p align="left">
+  <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/MachineLearning/Result/confusion%20matrix%20uji%20data.jpeg" alt="Deskripsi Gambar" style="width:50%; border: 1px solid black;">
+</p>
+
+### Confusion Matrix at Test Dataset
+<p align="left">
+  <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/MachineLearning/Result/predict%20model%20to%20uji%20data.png" alt="Deskripsi Gambar" style="width:50%; border: 1px solid black;">
+</p>
+
+## Example Prediction
+<p align="left">
+  <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/MachineLearning/Result/display%20labels%20and%20prediction%20uji%20data.png" alt="Deskripsi Gambar" style="width:100%; border: 1px solid black;">
+</p>
