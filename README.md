@@ -22,7 +22,7 @@ Her is the [link](https://drive.google.com/file/d/1aajOAzylA1K9SwLWosR-3TH4E3jZu
 
 ## About Project
 
-![Deskripsi Gambar]([link_gif](https://drive.google.com/file/d/1bn1DfcRsTsIjdUxBNwGz4nWsKxy0U78-/view?usp=sharing))
+https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/assets/71117133/bd7b0490-0839-40cf-bd53-8d95371f08d9
 
 ## Built with
 
