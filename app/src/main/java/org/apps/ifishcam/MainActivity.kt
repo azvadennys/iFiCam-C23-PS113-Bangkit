@@ -8,7 +8,6 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.google.android.material.bottomappbar.BottomAppBar
 import org.apps.ifishcam.databinding.ActivityMainBinding
 import org.apps.ifishcam.ui.detect_fish.DetectFishActivity
 
@@ -32,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         val appBarConfiguration = AppBarConfiguration(setOf(
             R.id.navigation_home,
             R.id.navigation_history,
-            R.id.navigation_info,
+            R.id.navigation_explore,
             R.id.navigation_person))
 
         binding.detectGambar.setOnClickListener {
