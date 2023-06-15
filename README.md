@@ -11,7 +11,7 @@
 ## iFiCam Apps
 
 <p align="center">
-  <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/raw/3765707b90de9438b9f76b46bc8fa8f6361fa1e3/Gambar1.png" alt="Deskripsi Gambar" style="width:100%;">
+  <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/f7421b6ce19d65e16898259fedc8bb6c6d79227b/overview.png" alt="Deskripsi Gambar" style="width:100%;">
 </p>
 
 iFiCam (identify of fish with camera) is an application that detects 10 types of fish commonly consumed by the public. iFiCam will provide accurate predictions regarding detailed information on the detected fish. Equipped with a recommendation feature that gives you fish recipes. Ificam as a medium for sharing information from several users regarding the sale of fish available around the residence via gmaps.
@@ -47,7 +47,7 @@ Her is the [link](https://drive.google.com/file/d/1aajOAzylA1K9SwLWosR-3TH4E3jZu
 ## Architekture Overview
 
 <p align="center">
-  <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/3765707b90de9438b9f76b46bc8fa8f6361fa1e3/Gambar2.jpg" alt="Deskripsi Gambar" style="width:100%;">
+  <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/f7421b6ce19d65e16898259fedc8bb6c6d79227b/arsitektur.jpeg" alt="Deskripsi Gambar" style="width:100%;">
 </p>
 
 ## Getting Started
