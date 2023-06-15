@@ -77,3 +77,16 @@ In our project is divided into four branches:
   - [Machine Learning](https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/tree/MachineLearning)
   - [Cloud Computing](https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/tree/Cloud-Computing)
   - [Mobile Development](https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/tree/mobile-development)
+
+## Contact
+
+| Nama  | LinkedIn |
+|-------|----------|
+| Azvadennys Vasiguhamiaz  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/azvadennys-vasiguhamiaz/)  |
+| Salsabilla Adisty  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/salsabilla-adisty-180685218/)  |
+| Rahmita Dwi Kurnia  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahmita-dwi/)  |
+| Muhammad Zaki Hamdani  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-zaki-hamdani-b1b8541b9/)  |
+| Hanif Amar Muzakki  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hanif-muzakki-48892a169/)  |
+| Ardhani Ahlan  | [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ardhani-ahlan-5a1312170/)  |
+
+
