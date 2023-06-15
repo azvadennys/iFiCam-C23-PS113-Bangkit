@@ -63,7 +63,7 @@ https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/assets/71117133/bd7b0490-
 
 ## Features of iFiCam APP
 
-- Detect fish species predictions using cameraX
+- Detect fish species predictions using camera
 - Provides detailed information on the types of fish predicted (description and nutrition)
 - Give some reccomenders about recipes of fish food
 - All user can upload story about fish for sale in the market
