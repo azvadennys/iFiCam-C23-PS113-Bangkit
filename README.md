@@ -1,6 +1,6 @@
 # Nama Aplikasi
 
-![logo](https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/assets/71117133/f52db935-bdb2-4ec7-bee4-eb779233e90d)
+![Gambar1](https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/assets/71117133/07b822df-8322-4af7-85f1-9b0ced39f2c7)
 
 Ini adalah repositori untuk aplikasi iFiCam. Aplikasi ini berfungsi untuk mendeteksi Ikan dan juga dapat memposting ikan yang ingin dijual serta dapat mengetahui letak penjual yang memposting pada Maps.
 
