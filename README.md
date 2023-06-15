@@ -31,6 +31,8 @@ iFiCam App built using MVVM Architecture
  
 ## Features
 
+https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/assets/71117133/67dae9f7-de54-416e-bdf8-f8b658ee5f09
+
   - Authentication with Google to Firebase Authentication
   - Uploading stories
   - Open the map to find out the location of each uploader
