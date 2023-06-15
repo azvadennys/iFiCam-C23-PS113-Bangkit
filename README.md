@@ -18,7 +18,7 @@ iFiCam (identify of fish with camera) is an application that detects 10 types of
 
 ## Download Link
 
-Her is the [link](https://drive.google.com/file/d/1aajOAzylA1K9SwLWosR-3TH4E3jZurm1/view?usp=sharing) of iFiCam App 
+Her is the [link](https://drive.google.com/file/d/1D9VnVlOrnf36frvaY7sOnzBJxV0SgA5a/view?usp=sharing) of iFiCam App 
 
 ## About Project
 <div align="center">
