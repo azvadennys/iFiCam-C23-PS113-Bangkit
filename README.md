@@ -63,15 +63,15 @@ Her is the [link](https://drive.google.com/file/d/1aajOAzylA1K9SwLWosR-3TH4E3jZu
 
 ## Features of iFiCam APP
 
-- **Detect fish species predictions using cameraX**
-- **Provides detailed information on the types of fish predicted (description and nutrition)**
-- **Give some reccomenders about recipes of fish food**
-- **All user can upload story about fish for sale in the market**
-- **Track the story position with google maps**
+- Detect fish species predictions using cameraX
+- Provides detailed information on the types of fish predicted (description and nutrition)
+- Give some reccomenders about recipes of fish food
+- All user can upload story about fish for sale in the market
+- Track the story position with google maps
 
 ## Repository Branches
 
 In our project is divided into four branches:
-  - Mobile Development
-  - Cloud Computing
-  - Machine Learning
+  - [Mobile Development](https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit.git)
+  - [Cloud Computing](https://drive.google.com/file/d/1aajOAzylA1K9SwLWosR-3TH4E3jZurm1/view?usp=sharing)
+  - [Machine Learning](https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit.git)
