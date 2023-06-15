@@ -72,6 +72,6 @@ Her is the [link](https://drive.google.com/file/d/1aajOAzylA1K9SwLWosR-3TH4E3jZu
 ## Repository Branches
 
 In our project is divided into four branches:
-  - Machine Learning
-  - Cloud Computing
-  - Mobile Development
+  - [Machine Learning](https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/tree/MachineLearning)
+  - [Cloud Computing](https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/tree/Cloud-Computing)
+  - [Mobile Development](https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/tree/mobile-development)
