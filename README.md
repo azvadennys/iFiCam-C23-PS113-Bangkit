@@ -3,9 +3,10 @@
 <p align="center">
   <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/f7421b6ce19d65e16898259fedc8bb6c6d79227b/overview.png" alt="Deskripsi Gambar" style="width:100%;">
 </p>
+
 ## Introduction
 
-This documentation provides details about the iFishCam REST API endpoints and their corresponding request and response structures for the code.
+This documentation provides details about the iFiCam REST API endpoints and their corresponding request and response structures for the code.
 
 The code is a Node.js with Express.js module that exposes many endpoints with specific routes.
 
