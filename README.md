@@ -24,6 +24,20 @@
 <p align="left">
 We obtained the dataset by photographing fish from the market, making it our original data. We augmented the dataset using Roboflow to enhance its diversity. The dataset was then split into a training set and a test set. The training set was used to train the InceptionV3 model, while the test set was used to evaluate its performance.
 </p>
+
+| Name Fish    | Scientific Name    |
+|------------|------------|
+| Bawal Putih | <i>Pampus Argenteus</i> | 
+| Belato | <i>Alepes Djedaba</i> | 
+| Cakalang | <i>Katsuwonus Pelamis</i> | 
+| Gembolo | <i>Rastrelliger Faughni</i> | 
+| Gole-Gole | <i>Platycaranx Malabaricus</i> | 
+| Kakap Merah | <i>Lutjanus Malabaricus</i> | 
+| Kembung | <i>Selaroides Leptolepis</i> | 
+| Kerapu  | <i>Epinephelus Malabaricus</i> | 
+| Tenggiri  | <i>Scomberomorus Guttatus</i> | 
+| Tuna  | <i>Thunnus Obesus</i> | 
+
 <p align="center">
   <img src="https://github.com/azvadennys/iFiCam-C23-PS113-Bangkit/blob/MachineLearning/Result/bar%20chart%20of%20train%20each%20category.png" alt="Deskripsi Gambar" style="width:100%;">
  <b>Dataset for Train and Validation</b>
