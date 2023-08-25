@@ -48,6 +48,7 @@ class DetectFishViewModel: ViewModel() {
             ) {
                 if(response.isSuccessful){
                     Log.d("IKAN", "Berhasil ${response.code()}")
+                    Thread.sleep(3000)
                     _predictResponse.value = response.body()
                     _isLoading.value = false
                     _isError.value = false
